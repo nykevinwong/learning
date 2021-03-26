@@ -1,6 +1,6 @@
  Blender 2.83 版
  
- 子視窗編緝器分割及合併功能 
+ 子視窗編緝器分割及合併功能 (1.3 Customizing the interface 自定使用者界面)
  
  Blender 主視窗可開多個子視窗。
  每個子視窗都只能開一個編輯器。
