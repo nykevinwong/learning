@@ -20,3 +20,8 @@ Shift [Select] 選多個物件
 Ctrl + J 將多個物件合在(join)在一起
 Ctrl + D 複製一個物體複本
 Alt + D   複製一個連結複本 (作用任一連結體，也會改變其它相連的連結體)
+
+2.5-The outliners and the collections
+Shift Select, A, Alt+A 用來選擇多個物體
+選擇多個物體後，按 M 會出現選單，選 new Collection 就可將這些物體分成一組命名，該組名會出現在outliner.
+
