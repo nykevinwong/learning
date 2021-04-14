@@ -26,8 +26,9 @@ Shift Select, A, Alt+A 用來選擇多個物體
 選擇多個物體後，按 M 會出現選單，選 new Collection 就可將這些物體分成一組命名，該組名會出現在outliner.
 
 2.6 物體之間的關系 Ojects Relationship
+可建模一個簡單的方桌子，並將方桌子往上移，並以桌腳底放置 z = 0 的平面上。最後可將此模形所有組件以(0,0,0)為中心點的球體Empty空元件為父元件;此空元件可用來移動該物件
 
-4.7 快捷選單及快速選單 (The context menu and quick shortcut)
+2.7 快捷選單及快速選單 (The context menu and quick shortcut)
 快捷選單就是右鍵選單，在不同的編輯器，不同的模式，乃至不同的物件上都有特定用途的快捷選單。
 可以在選單選項上右擊任一選項，然後選Add/Remove to Quick Favorite, 就可以將此選項加入快速最愛的選單或移除.
 可以在選單選項上右擊任一選項，然後選 Assigan鍵/Remove/Change Shortcut Key, 即可設定或移除該選項的快捷鍵.
