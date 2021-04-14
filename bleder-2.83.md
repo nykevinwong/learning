@@ -1,7 +1,6 @@
  Blender 2.83 版
  
- 1.3 自定使用者界面 (Customizing the interface)
- 2. 
+ 1.3 自定使用者界面 (Customizing the interface) 
  Blender 主視窗可開多個子視窗。
  每個子視窗都只能開一個編輯器。
  每個子視窗左上角的下拉按鈕可切換該子視窗的編輯器類型。
