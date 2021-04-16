@@ -52,7 +52,7 @@ Shift Select, A, Alt+A 用來選擇多個物體
 
 Union vs Join (Ctrl_J): 相結合(Union)與相連合(Join)的差別是，相結合(Union) 一個物體可與另一個物體相結合。這結合會改變3D幾何結構(Wireframe structure),兩物體相交的部份會被認為是多餘，而被去掉。 與相連合( Join, Ctrl+J) 的差別是，相連合僅僅是將兩物體相連在一起，不會改變3D幾何結構(Wireframe structure). 
 
-Auto Boolean Vs Brush Boolean (自動布林運算 Vs 遮罩布林運算) 自動布林運算是立即對物體做布林運算修改。遮罩布林運算是遮罩物體用來對物體做布林運算，可以立即看到布林修改結果，但未apply前，並不會更改幾何物體結構 (wireframe structure)的。遮罩布林運算其實是套用了Boolean Modifier(布林修改器)所產生的效果.
+Auto Boolean Vs Brush Boolean (自動布林運算 Vs 遮罩布林運算) 自動布林運算是立即對物體做布林運算修改。遮罩布林運算是遮罩物體用來對物體做布林運算，可以立即看到布林修改結果，但未apply前，並不會更改幾何物體結構 (wireframe structure)的。遮罩布林運算其實是套用了Boolean Modifier(布林修改器)所產生的效果. 遮罩布林運算比直接套用Boolean Modifier省了很多steps.
 
 Brush Boolan and Viewport Display | Display As Solid/Bound
 遮罩布林運算的物體屬性編輯器的Viewport Display欄中的 Display As 可選Solid使得Brush Boolean不產生作用. 可選Bound恢愎其作用。
