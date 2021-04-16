@@ -42,4 +42,14 @@ Shift Select, A, Alt+A 用來選擇多個物體
 
 多門開關器的實作: 加入多個不同轉向的門，加入一個空元件，將角度複制器 (Copy Rotation)加入每個門中。
 
+2.9 布林工具 Bool Tool
+布林工具是一個 Addon 工具,可由Edit|Perferences來啟動。Bool Tool AddOn 啟動後，在3D Viewport編輯器右邊界的左箭頭可拉出標籤頁，標籤頁中的Edit頁，就可展開 Bool Tool.
+
+布林工具可令一個物體的部份被另一物體的部份形狀做布林操作，Difference: 去除另一物體的相交及其所有部份.  Union: 結合，只去除相交部份。 Intersect: 只留下相交部份。Slice: 砍去與另一物體相交部份，只留下不相交部份。 Union, Intersect及 slice 對是針對相交部份或不相交部份進行去除或保留的動作. 
+如果Bool Tool無法得到預期結果，可先將其Join所有元件，然後使用Bool Modifier做同等Boolean 運算。
+
+Union vs Join (Ctrl_J): 相結合(Union)與相連合(Join)的差別是，相結合(Union) 一個物體可與另一個物體相結合。這結合會改變3D幾何結構(Wireframe structure),兩物體相交的部份會被認為是多餘，而被去掉。 與相連合( Join, Ctrl+J) 的差別是，相連合僅僅是將兩物體相連在一起，不會改變3D幾何結構(Wireframe structure). 
+
+
+
 
