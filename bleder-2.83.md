@@ -1,4 +1,6 @@
- Blender 2.83 版
+ Blender 2.83 版 
+ 
+ 在Stackoverflow 閱讀 Blender 相關問題,可幫助你快速增加所需的經驗知識。例子(https://blender.stackexchange.com/questions/46399/boolean-does-not-slice-correctly-using-difference)
  
  1.3 自定使用者界面 (Customizing the interface) 
  Blender 主視窗可開多個子視窗。
