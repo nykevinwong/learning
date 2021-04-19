@@ -60,6 +60,6 @@ Brush Boolan and Viewport Display | Display As Solid/Bound
 3.1-Introducing vertice, edge, face 頂點，邊，面
 
 切換物體到編輯模式: (1) 選擇物體，然後按Tab切換 (2) 選擇物體，然後按Ctrl+Tab啟動pie menu來選 Edit Mode 切換 (3) 選擇物體，然後從3D Viewport編輯器左上角的模式下拉選單來切換.
-編輯模式中切換對頂點，邊及面的選取. 1鍵是頂點編輯模式. 2鍵是3D邊編輯模式. 3鍵是面編輯模式.
+編輯模式中切換對頂點，邊及面的選取. 1鍵是頂點編輯模式. 2鍵是3D邊編輯模式. 3鍵是面編輯模式. 其它專有名詞名稱: Quad就是四個點的polygon. Triangle是三個點的face. 超過4個點的face叫做Ngon.
 
 
