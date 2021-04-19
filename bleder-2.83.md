@@ -57,5 +57,9 @@ Auto Boolean Vs Brush Boolean (自動布林運算 Vs 遮罩布林運算) 自動�
 Brush Boolan and Viewport Display | Display As Solid/Bound
 遮罩布林運算的物體屬性編輯器的Viewport Display欄中的 Display As 可選Solid使得Brush Boolean不產生作用. 可選Bound恢愎其作用。
 
+3.1-Introducing vertice, edge, face 頂點，邊，面
+
+切換物體到編輯模式: (1) 選擇物體，然後按Tab切換 (2) 選擇物體，然後按Ctrl+Tab啟動pie menu來選 Edit Mode 切換 (3) 選擇物體，然後從3D Viewport編輯器左上角的模式下拉選單來切換.
+編輯模式中切換對頂點，邊及面的選取. 1鍵是頂點編輯模式. 2鍵是3D邊編輯模式. 3鍵是面編輯模式.
 
 
