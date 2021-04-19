@@ -63,5 +63,6 @@ Brush Boolan and Viewport Display | Display As Solid/Bound
 編輯模式中切換對頂點，邊及面的選取. 1鍵是頂點編輯模式. 2鍵是3D邊編輯模式. 3鍵是面編輯模式. 其它專有名詞名稱: Quad就是四個點的polygon. Triangle是三個點的face. 超過4個點的face叫做Ngon.
 Shift-Select 連選多個頂點(線、面).  Alt-Select 選一條水平線或垂直線裡的所有頂點(線、面).
 選擇物體相連頂點，邊或面的方法: 選擇物體的頂點，邊或面後，按L會選擇所有相連在物體上的相對應頂點，邊或面。
+將同一物體的部份分離的方法:在編輯模式中選取要分離的部份(選點、邊、面都可以)，然後按L選取所有連結的部份，不可用A，A會全選所有編輯模式的物體。 按P顯示分離選單(Seperate)，然後選(Selection)，將所選物分離至一個新的物體。
 
 
