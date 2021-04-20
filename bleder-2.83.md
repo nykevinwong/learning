@@ -78,3 +78,7 @@ Alt Select (loop select): 選取點、邊、面相連的迴路上的所有點、
 B (box)/ Ctrl B 可啟動方塊選取或取消選取。 在Solid View用方塊選取，無法選取到物體背面的幾何結構。在Wire Frame View用方塊選取，可以選取到物體背面的幾何結構。
 C (circle)/ Shift C 可啟動圓形塗選取或取消選取, Enter Key 確定選取範圍。
 Ctrl I: 反轉(inverse)當前選取區.
+Ctrl +: Select More 多選一層 , Ctrl -: Select Less 少選一層.
+L 選取當前連在一起的物體。 H / Alt H: hide/show 當前選取區。
+
+ 3.3-Extrusion and face creation
