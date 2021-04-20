@@ -74,5 +74,5 @@ Delete 及 Dissolve 的差別: 在編輯模式中，選一個頂點，邊或面�
 
 5.2  編輯模式中的選取工具 (Selection Tool0
 Ctrl Select vs Shift Select: Shift Select 可用來多選每個選取的物體(點，邊，面), Ctrl Select是選取兩個或以上點時，中間的點都會一起被選取。
-Alt Select: 選取點、邊、面相連的迴路上的所有點、邊、面都被選取。
+Alt Select (loop select): 選取點、邊、面相連的迴路上的所有點、邊、面都被選取。迴路上如果有三角形，則超過一條路徑的可能性，則會被視為迴路的終點，不再進行選擇。
 
