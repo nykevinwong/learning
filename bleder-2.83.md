@@ -77,3 +77,4 @@ Ctrl Select vs Shift Select: Shift Select 可用來多選每個選取的物體(�
 Alt Select (loop select): 選取點、邊、面相連的迴路上的所有點、邊、面都被選取。迴路上如果有三角形，則超過一條路徑的可能性，則會被視為迴路的終點，不再進行選擇。
 B (box)/ Ctrl B 可啟動方塊選取或取消選取。 在Solid View用方塊選取，無法選取到物體背面的幾何結構。在Wire Frame View用方塊選取，可以選取到物體背面的幾何結構。
 C (circle)/ Shift C 可啟動圓形塗選取或取消選取, Enter Key 確定選取範圍。
+Ctrl Y: 反轉(inverse)當前選取區.
