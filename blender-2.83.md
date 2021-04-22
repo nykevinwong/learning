@@ -81,12 +81,17 @@ Ctrl I: 反轉(inverse)當前選取區.
 Ctrl +: Select More 多選一層 , Ctrl -: Select Less 少選一層.
 L 選取當前連在一起的物體。 H / Alt H: hide/show 當前選取區。
 
- 3.3-Extrusion and face creation
+3.3-Extrusion and face creation
 
 Extrude 擠型:Extrude其實是複製所選區，然後舊的所選區連接到新複製出的所選區.
 E S 鍵: 可以創造新的face在其所選的face上，這方法對點無效，因為點無法變大變小.
 顯示3D平面法線的方法. 選 Viewport Overlays，然後按 Display Normals.
- 
- 
+
+按住左鍵不放，可顯示 Extrude 選單: Extrude Region, Extrude Along Normals, and Extrude Individual.
+Extrude Region 可在多選區(faces)中，根據各區塊(face)的平均法線來拉出，拉出來是一體的狀態。
+Extrude Individual 可在多選區(faces)中，根據各區塊(face)的法線來拉出，拉出來是分開的狀態。
+
+可在多選區(faces)中，令各個face都獨立的變大變小的方法: 多選後，按Transform Pivot Point下拉選單，然後選Individual Origins(使用各個物體的獨立 Local Origin).
+
  
  
