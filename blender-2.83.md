@@ -82,3 +82,11 @@ Ctrl +: Select More 多選一層 , Ctrl -: Select Less 少選一層.
 L 選取當前連在一起的物體。 H / Alt H: hide/show 當前選取區。
 
  3.3-Extrusion and face creation
+
+Extrude 擠型:Extrude其實是複製所選區，然後舊的所選區連接到新複製出的所選區.
+E S 鍵: 可以創造新的face在其所選的face上，這方法對點無效，因為點無法變大變小.
+顯示3D平面法線的方法. 選 Viewport Overlays，然後按 Display Normals.
+ 
+ 
+ 
+ 
