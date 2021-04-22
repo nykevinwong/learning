@@ -70,7 +70,7 @@ Brush Boolan and Viewport Display | Display As Solid/Bound
 Shift-Select 連選多個頂點(線、面).  Alt-Select 選一條水平線或垂直線裡的所有頂點(線、面).
 選擇物體相連頂點，邊或面的方法: 選擇物體的頂點，邊或面後，按L會選擇所有相連在物體上的相對應頂點，邊或面。
 將同一物體的部份分離的方法:在編輯模式中選取要分離的部份(選點、邊、面都可以)，然後按L選取所有連結的部份，不可用A，A會全選所有編輯模式的物體。 按P顯示分離選單(Seperate)，然後選(Selection)，將所選物分離至一個新的物體。
-Delete 及 Dissolve 的差別: 在編輯模式中，選一個頂點，邊或面。然後按X顯示刪除選單。 接下來可選Vertices或Dissolve Vertices，差別在於Dissolve不會造出缺口，而是使用Ngon。只用刪除Vertices會造出缺口. 刪除邊或面，Dissolve邊或面也是同樣的。
+Delete 及 Dissolve 的差別: 在編輯模式中，選一個頂點，邊或面。然後按X顯示刪除選單。 接下來可選Vertices或Dissolve Vertices，差別在於Dissolve不會造出缺口，而是使用Ngon。只用刪除Vertices會造出缺口. 刪除邊或面，Dissolve邊或面也是同樣的。 Ctrl+X 可以根據當前編輯模式(點，邊，面)來Dissolve所選區.
 
 5.2  選取工具 (Selection Tool)
 Ctrl Select vs Shift Select: Shift Select 可用來多選每個選取的物體(點，邊，面), Ctrl Select是選取兩個或以上點時，中間的點都會一起被選取。
@@ -93,5 +93,5 @@ Extrude Individual 可在多選區(faces)中，根據各區塊(face)的法線來
 
 可在多選區(faces)中，令各個face都獨立的變大變小的方法: 多選後，按Transform Pivot Point下拉選單，然後選Individual Origins(使用各個物體的獨立 Local Origin).
 
-製作filter: Shift+A 加入一個Grid. 選
+製作方格濾網: Shift+A 加入一個Grid. 
  
