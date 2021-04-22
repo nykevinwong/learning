@@ -94,7 +94,7 @@ Extrude Individual 可在多選區(faces)中，根據各區塊(face)的法線來
 可在多選區(faces)中，令各個face都獨立的變大變小的方法: 多選後，按Transform Pivot Point下拉選單，然後選Individual Origins(使用各個物體的獨立 Local Origin).
 
 製作方格濾網: Shift+A 加入一個Grid. Tab 到面編輯模式. A 全選. 選 Extrude Individual ，拉高一點點。 S 變小一點點。 此時，網格看起來像超市賣的巧克塊。 X 刪除當前所選的頂面就會變成方格濾網.
-玻璃酒杯: Shift+A 加入一個 Circle. 用 E Z 拉出，E S 改變大小兩個功能，邊拉邊調整出酒杯的形狀。
+玻璃酒杯: Shift+A 加入一個 Circle. 用 E Z 拉出，E S 改變大小兩個功能，邊拉邊調整出酒杯的形狀。 最後可用 F 鍵來在己選的迴路中建立face來封面。
 
 快速建模小技巧:
 G G: Slide Mode 在不改變當前幾何結構下，移動當前所選的邊' 迴路'面等等)
