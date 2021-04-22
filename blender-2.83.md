@@ -99,6 +99,11 @@ Extrude Individual 可在多選區(faces)中，根據各區塊(face)的法線來
 最後，相續各選四個點按F來建立face來封合，直到全部封合為止。
 車形(機器)方體: Shift+A 加入一個平面，選二個點。使用Front View,然後E拉出車側邊的形狀，最後Shift + Select選四點按F封口. 用Ctrl +Select 選兩點時，會將兩點相連的路徑上的點也幫你自動選。
 
+Subdivide (一條線中加中點，兩點之中加中點)
+monkey 頭項重建: Shift+A 加入一估moneky, 刪除monkey頭上四格的面. 直接選口上的所有點，按F建立面來封口，會得到一個不良好，非Ngon面。 
+要建立Ngon面，就刪除此面. 選中間上面兩點按F連出一邊。 邊被選時，按右鍵選Subdivide建立一個邊上的中點。接著，各選四點按F建立Ngon封口，直到所有口到封完。
+
+
 快速建模小技巧:
 G G: Slide Mode 在不改變當前幾何結構下，移動當前所選的邊' 迴路'面等等)
 
