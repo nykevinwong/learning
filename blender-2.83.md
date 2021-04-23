@@ -107,4 +107,9 @@ monkey 頭項重建: Shift+A 加入一估moneky, 刪除monkey頭上四格的面.
 快速建模小技巧:
 G G: Slide Mode 在不改變當前幾何結構下，移動當前所選的邊' 迴路'面等等)
 
+3.4-Modeling tools in edit mode
+Inset: 按I鍵可在所選的一個面或多個面上，再建立一個面,此面的所有角落會有邊連在原有面的角落上.   
+BLevel: 選90度的角上的邊，然後按 Ctrl+ B，可將90度轉成圓形的角。
+Loop Cut: Ctrl+R 可執行迴路的一刀
+
 
