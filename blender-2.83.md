@@ -63,7 +63,7 @@ Brush Boolan and Viewport Display | Display As Solid/Bound
 製作椅子
 製作書桌
 
-5.1-Introducing vertice, edge, face 頂點，邊，面
+3.1-Introducing vertice, edge, face 頂點，邊，面
 
 切換物體到編輯模式: (1) 選擇物體，然後按Tab切換 (2) 選擇物體，然後按Ctrl+Tab啟動pie menu來選 Edit Mode 切換 (3) 選擇物體，然後從3D Viewport編輯器左上角的模式下拉選單來切換.
 編輯模式中切換對頂點，邊及面的選取. 1鍵是頂點編輯模式. 2鍵是3D邊編輯模式. 3鍵是面編輯模式. 其它專有名詞名稱: Quad就是四個點的polygon. Triangle是三個點的face. 超過4個點的face叫做Ngon.
@@ -72,7 +72,7 @@ Shift-Select 連選多個頂點(線、面).  Alt-Select 選一條水平線或垂
 將同一物體的部份分離的方法:在編輯模式中選取要分離的部份(選點、邊、面都可以)，然後按L選取所有連結的部份，不可用A，A會全選所有編輯模式的物體。 按P顯示分離選單(Seperate)，然後選(Selection)，將所選物分離至一個新的物體。
 Delete 及 Dissolve 的差別: 在編輯模式中，選一個頂點，邊或面。然後按X顯示刪除選單。 接下來可選Vertices或Dissolve Vertices，差別在於Dissolve不會造出缺口，而是使用Ngon。只用刪除Vertices會造出缺口. 刪除邊或面，Dissolve邊或面也是同樣的。 Ctrl+X 可以根據當前編輯模式(點，邊，面)來Dissolve所選區.
 
-5.2  選取工具 (Selection Tool)
+3.2  選取工具 (Selection Tool)
 Ctrl Select vs Shift Select: Shift Select 可用來多選每個選取的物體(點，邊，面), Ctrl Select是選取兩個或以上點時，中間的點都會一起被選取。
 Alt Select (loop select): 選取點、邊、面相連的迴路上的所有點、邊、面都被選取。迴路上如果有三角形，則超過一條路徑的可能性，則會被視為迴路的終點，不再進行選擇。
 B (box)/ Ctrl B 可啟動方塊選取或取消選取。 在Solid View用方塊選取，無法選取到物體背面的幾何結構。在Wire Frame View用方塊選取，可以選取到物體背面的幾何結構。
@@ -111,5 +111,14 @@ G G: Slide Mode 在不改變當前幾何結構下，移動當前所選的邊' �
 Inset: 按I鍵可在所選的一個面或多個面上，再建立一個面,此面的所有角落會有邊連在原有面的角落上.   
 BLevel: 選90度的角上的邊，然後按 Ctrl+ B，可將90度轉成圓形的角。
 Loop Cut: Ctrl+R 可執行迴路的一刀
+
+
+3.8 Basic Modling Editing Exercise 基礎建模編輯練習-杯子
+重點: 每次建模時，A 選整個模型，用 M > Merge Vertices > By Distance 除去double vertices. 另外選用 Shift+N，然後recalculate normal 來重新計算法線朝向。朝外是正確的，代表此面是正面，可被Render顯示的。朝內的法線代表，此面是反面,不會被Render顯示的。
+用 Viewport overlay icon 接近底部 > face normal 可以看每個面的法線是否正確的朝外.
+
+Shift+A 建立 Cylinder. 按NumPad 1切換成正視圖,在Edit Mode中，選 Cylinder 的頂邊. GZ1 會將模形往上拉高一格。
+Shift+A 建立 Torus 甜甜圈來做杯把. RX90 X軸翻90度. Z4 在pie menu 切換成WireFrame mode 框架模式. B 選半個甜甜圈，然後按X刪除。
+Shift Click 連選兩個模式，然後Ctrl+J 連結。 連結一體模形後，才能在編輯模式中，同時編輯兩個模形。 Ctrl+R 在Cylinder上加loop cut，然後在杯柄口可連接處上面放一個cut. 同理，加另個loop cut 在可連接處下面放一個loop cut. 上下兩口，一口兩個loop cut, 共4個loop cut. 選Cylinder的上杯柄口連接處的兩個面，刪除。同理，也刪除下杯柄口連接處的兩個面. 用2選邊模式，alt+click 選Cylinder杯柄口邊, 然後right click選loop cut tool然後，選circle將口轉成圓形，可調低influence使其不用那麼圓。   用2選邊模式，alt+click選Cylinder杯柄口邊，然後shfit+alt+Click連選半甜甜圈杯柄口. Ctrl+E (Edge) ，選 Brdige Edge Loops (連接兩個或多個邊迴路)
 
 
