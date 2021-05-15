@@ -119,6 +119,18 @@ Loop Cut: Ctrl+R 可執行迴路的一刀
 
 Shift+A 建立 Cylinder. 按NumPad 1切換成正視圖,在Edit Mode中，選 Cylinder 的頂邊. GZ1 會將模形往上拉高一格。
 Shift+A 建立 Torus 甜甜圈來做杯把. RX90 X軸翻90度. Z4 在pie menu 切換成WireFrame mode 框架模式. B 選半個甜甜圈，然後按X刪除。
-Shift Click 連選兩個模式，然後Ctrl+J 連結。 連結一體模形後，才能在編輯模式中，同時編輯兩個模形。 Ctrl+R 在Cylinder上加loop cut，然後在杯柄口可連接處上面放一個cut. 同理，加另個loop cut 在可連接處下面放一個loop cut. 上下兩口，一口兩個loop cut, 共4個loop cut. 選Cylinder的上杯柄口連接處的兩個面，刪除。同理，也刪除下杯柄口連接處的兩個面. 用2選邊模式，alt+click 選Cylinder杯柄口邊, 然後right click選loop cut tool然後，選circle將口轉成圓形，可調低influence使其不用那麼圓。   用2選邊模式，alt+click選Cylinder杯柄口邊，然後shfit+alt+Click連選半甜甜圈杯柄口. Ctrl+E (Edge) ，選 Brdige Edge Loops (連接兩個或多個邊迴路)
+Shift Click 連選兩個模式，然後Ctrl+J 連結。 連結一體模形後，才能在編輯模式中，同時編輯兩個模形。 Ctrl+R 在Cylinder上加loop cut，然後在杯柄口可連接處上面放一個cut. 同理，加另個loop cut 在可連接處下面放一個loop cut. 上下兩口，一口兩個loop cut, 共4個loop cut. 選Cylinder的上杯柄口連接處的兩個面，刪除。同理，也刪除下杯柄口連接處的兩個面. 用2選邊模式，alt+click 選Cylinder杯柄口邊, 然後right click選loop cut tool然後，選circle將口轉成圓形，可調低influence使其不用那麼圓。   用2選邊模式，alt+click選Cylinder杯柄口邊，然後shfit+alt+Click連選半甜甜圈杯柄口. Ctrl+E (Edge) ，選 Brdige Edge Loops (連接兩個或多個邊迴路).
+
+使用 Subdivision Modifier 來平滑模形。
+即使使用Subdivision Modifier，也可能無法平滑模形。你必須有合理可平滑化的幾何結構。Blevel功能造出可平滑化的幾何結構。
+杯底需用兩個ES來增加幾何結構，第二個圖loop要GZ往上拉一些，然後再加一個es. 往上拉的目地就是要造出符合Blevel功能要求的邊。
+
+選杯底外圍的邊及第二個有高度差距分割線的邊,Ctrl+B 移動滑鼠控制Blevel的範圍大小, 鼠輪可以控制要多少條線.  如果無法正確得到Blevel的邊，要移除vertices double及重新計算法線。
+同上，杯口的兩個圓邊也是用Ctrl+B的方式。
+杯子內部底部，也用杯底外圍的方式來BLevel.
+
+最後，加上Subdivision Modifier來平滑整個模形。此時，會可看到被Blevel的幾何部份都平滑了。
+
+如何反平滑化杯柄口部份。加個loop cut, 將loop cut拉到杯柄口連接處的邊，這兩個loop cut邊的距離要幾乎相連，但不至相連。這樣subdivision modifier 平滑這兩個loop cut之間的面時，面的大小太小而不執行平滑功能。
 
 
