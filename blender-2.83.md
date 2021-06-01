@@ -133,4 +133,13 @@ Shift Click 連選兩個模式，然後Ctrl+J 連結。 連結一體模形後，
 
 如何反平滑化杯柄口部份。加個loop cut, 將loop cut拉到杯柄口連接處的邊，這兩個loop cut邊的距離要幾乎相連，但不至相連。這樣subdivision modifier 平滑這兩個loop cut之間的面時，面的大小太小而不執行平滑功能。
 
+4.5 modifier exercise - 製作沙發(sofa)
+
+Shift+A 加入一個Cube, SX 及 SY 調整大小。 加入 bevel modifier. segment只要3層面. width要比原來大一點.  再加入 subdivision modifier 來平滑.
+
+Bevel modifier 在object mode及edit mode下有不同運作方式:
+Bevel modifier 會根據當前3D幾何結構的 Global Scale 值來對當前3D幾何結構來Bevel/斜邊化/斜角化.
+在object mode調整3D幾何結構大小時，3D幾何結構的 Global Scale (全域大小) 數會被改變。可用 Ctrl+A 開啟重置選單，選Scale來重置Global Scale.
+在edit mode調整3D幾何結構大小時，3D幾何結構的 Global Scale (全域大小) 數不會被改變。
+
 
